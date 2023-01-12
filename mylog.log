@@ -573,3 +573,7 @@ Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletReque
 2023-01-12 17:34:12.673  INFO 14948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-01-12 17:34:13.258  WARN 14948 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-01-12 17:34:13.834  INFO 14948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 17:34:14.058  INFO 14948 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 5.646 seconds (JVM running for 6.264)
+2023-01-12 17:36:52.966  INFO 14948 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 17:36:52.969  INFO 14948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 17:36:52.972  INFO 14948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
