@@ -1,0 +1,575 @@
+2023-01-12T13:21:23.711+01:00  INFO 16960 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 16960 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T13:21:23.751+01:00  INFO 16960 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T13:21:25.529+01:00  INFO 16960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12T13:21:25.736+01:00  INFO 16960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interfaces.
+2023-01-12T13:21:27.741+01:00  INFO 16960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12T13:21:27.815+01:00  INFO 16960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12T13:21:27.819+01:00  INFO 16960 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-12T13:21:28.568+01:00  INFO 16960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12T13:21:28.571+01:00  INFO 16960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4650 ms
+2023-01-12T13:21:29.151+01:00  INFO 16960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12T13:21:30.028+01:00  INFO 16960 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-01-12T13:21:30.032+01:00  INFO 16960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12T13:21:30.225+01:00  INFO 16960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12T13:21:30.516+01:00  INFO 16960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-12T13:21:30.860+01:00  WARN 16960 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-12T13:21:31.264+01:00  INFO 16960 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12T13:21:33.416+01:00  INFO 16960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12T13:21:33.450+01:00  INFO 16960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T13:21:34.059+01:00  WARN 16960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12T13:21:34.767+01:00  INFO 16960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12T13:21:34.781+01:00  INFO 16960 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 11.988 seconds (process running for 13.014)
+2023-01-12T13:22:10.298+01:00  INFO 16960 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12T13:22:10.301+01:00  INFO 16960 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12T13:22:10.308+01:00  INFO 16960 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-12T13:26:19.121+01:00  INFO 16960 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T13:26:19.198+01:00  INFO 16960 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12T13:26:19.205+01:00  INFO 16960 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12T13:26:19.222+01:00  INFO 16960 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12T13:26:42.174+01:00  INFO 16424 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 16424 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T13:26:42.180+01:00  INFO 16424 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T13:26:43.306+01:00 ERROR 16424 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:500) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:448) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1048) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.CodingTask.CodingTaskApplication.main(CodingTaskApplication.java:15) ~[classes/:na]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 32 common frames omitted
+
+2023-01-12T13:29:47.416+01:00  INFO 15788 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 15788 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T13:29:47.464+01:00  INFO 15788 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T13:29:48.556+01:00 ERROR 15788 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:500) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:448) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1048) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.CodingTask.CodingTaskApplication.main(CodingTaskApplication.java:15) ~[classes/:na]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 32 common frames omitted
+
+2023-01-12T14:05:50.125+01:00  INFO 14584 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 14584 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:05:50.192+01:00  INFO 14584 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:05:53.702+01:00  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12T14:05:53.920+01:00  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 1 JPA repository interfaces.
+2023-01-12T14:05:57.065+01:00  INFO 14584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12T14:05:57.119+01:00  INFO 14584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12T14:05:57.122+01:00  INFO 14584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-12T14:05:57.733+01:00  INFO 14584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12T14:05:57.734+01:00  INFO 14584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7330 ms
+2023-01-12T14:05:58.560+01:00  INFO 14584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12T14:05:59.403+01:00  INFO 14584 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-01-12T14:05:59.407+01:00  INFO 14584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12T14:05:59.642+01:00  INFO 14584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12T14:05:59.956+01:00  INFO 14584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-12T14:06:00.449+01:00  WARN 14584 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-12T14:06:01.555+01:00  INFO 14584 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12T14:06:03.904+01:00  INFO 14584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12T14:06:03.933+01:00  INFO 14584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:06:04.758+01:00  WARN 14584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12T14:06:05.472+01:00  INFO 14584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12T14:06:06.299+01:00  INFO 14584 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 18.21 seconds (process running for 20.5)
+2023-01-12T14:08:27.340+01:00  INFO 14584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:08:27.378+01:00  INFO 14584 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12T14:08:27.495+01:00  INFO 14584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12T14:08:27.521+01:00  INFO 14584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12T14:09:47.494+01:00  INFO 2328 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 2328 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:09:47.501+01:00  INFO 2328 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:09:48.652+01:00  INFO 2328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12T14:09:48.738+01:00  INFO 2328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-01-12T14:09:49.519+01:00  INFO 2328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12T14:09:49.540+01:00  INFO 2328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12T14:09:49.540+01:00  INFO 2328 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-12T14:09:49.715+01:00  INFO 2328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12T14:09:49.718+01:00  INFO 2328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2131 ms
+2023-01-12T14:09:49.884+01:00  INFO 2328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12T14:09:50.105+01:00  INFO 2328 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-01-12T14:09:50.109+01:00  INFO 2328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12T14:09:50.167+01:00  INFO 2328 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12T14:09:50.241+01:00  INFO 2328 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-12T14:09:50.462+01:00  WARN 2328 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-12T14:09:50.616+01:00  INFO 2328 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12T14:09:51.559+01:00  INFO 2328 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12T14:09:51.589+01:00  INFO 2328 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:09:52.139+01:00  WARN 2328 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12T14:09:52.571+01:00  INFO 2328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12T14:09:53.227+01:00  INFO 2328 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 6.325 seconds (process running for 6.864)
+2023-01-12T14:10:07.311+01:00  INFO 2328 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12T14:10:07.314+01:00  INFO 2328 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12T14:10:07.319+01:00  INFO 2328 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-12T14:10:37.277+01:00  INFO 2328 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:10:37.280+01:00  INFO 2328 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12T14:10:37.431+01:00  INFO 2328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12T14:10:37.454+01:00  INFO 2328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12T14:11:28.833+01:00  INFO 11992 --- [main] c.e.C.CodingTaskApplicationTests         : Starting CodingTaskApplicationTests using Java 17 with PID 11992 (started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:11:28.841+01:00  INFO 11992 --- [main] c.e.C.CodingTaskApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:11:30.729+01:00  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12T14:11:30.845+01:00  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2023-01-12T14:11:31.856+01:00  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12T14:11:32.490+01:00  INFO 11992 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-01-12T14:11:32.502+01:00  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12T14:11:32.654+01:00  INFO 11992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12T14:11:32.799+01:00  INFO 11992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-12T14:11:33.342+01:00  WARN 11992 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-12T14:11:33.725+01:00  INFO 11992 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12T14:11:34.982+01:00  INFO 11992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12T14:11:35.046+01:00  INFO 11992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:11:36.064+01:00  WARN 11992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12T14:11:38.427+01:00  INFO 11992 --- [main] c.e.C.CodingTaskApplicationTests         : Started CodingTaskApplicationTests in 10.31 seconds (process running for 14.105)
+2023-01-12T14:11:39.161+01:00  INFO 11992 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12T14:11:39.163+01:00  INFO 11992 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12T14:11:39.375+01:00  INFO 11992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12T14:11:39.391+01:00  INFO 11992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12T14:17:38.931+01:00  INFO 15680 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 15680 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:17:38.937+01:00  INFO 15680 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:17:39.952+01:00 ERROR 15680 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:500) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:448) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1048) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.CodingTask.CodingTaskApplication.main(CodingTaskApplication.java:15) ~[classes/:na]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 32 common frames omitted
+
+2023-01-12T14:18:37.027+01:00  INFO 9492 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 9492 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:18:37.035+01:00  INFO 9492 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:18:38.214+01:00 ERROR 9492 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:500) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:448) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1048) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.CodingTask.CodingTaskApplication.main(CodingTaskApplication.java:15) ~[classes/:na]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 32 common frames omitted
+
+2023-01-12T14:20:36.297+01:00  INFO 11952 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 with PID 11952 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12T14:20:36.303+01:00  INFO 11952 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12T14:20:37.266+01:00 ERROR 11952 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:500) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:448) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1048) ~[spring-core-6.0.3.jar:6.0.3]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:373) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:372) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:410) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.CodingTask.CodingTaskApplication.main(CodingTaskApplication.java:15) ~[classes/:na]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 32 common frames omitted
+
+2023-01-12 15:07:08.371  INFO 9500 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 9500 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:07:08.412  INFO 9500 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:07:10.245  INFO 9500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:07:10.862  INFO 9500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 600 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:07:17.852  INFO 9500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:07:18.123  INFO 9500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:07:18.177  INFO 9500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:07:18.480  INFO 9500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:07:18.481  INFO 9500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9829 ms
+2023-01-12 15:07:19.729  INFO 9500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:07:22.425  INFO 9500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:07:22.587  INFO 9500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:07:22.664  INFO 9500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:07:22.915  INFO 9500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:07:23.287  INFO 9500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:07:24.358  INFO 9500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:07:24.374  INFO 9500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:07:25.141  WARN 9500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:07:25.918  INFO 9500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:07:26.175  INFO 9500 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 19.298 seconds (JVM running for 20.126)
+2023-01-12 15:07:56.369  INFO 9500 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:07:56.371  INFO 9500 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:07:56.374  INFO 9500 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-12 15:15:46.979  INFO 9500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:15:46.980  INFO 9500 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12 15:15:47.104  INFO 9500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 15:15:47.108  INFO 9500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12 15:15:58.564  INFO 7428 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 7428 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:15:58.569  INFO 7428 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:15:59.785  INFO 7428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:15:59.867  INFO 7428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:16:00.860  INFO 7428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:16:00.879  INFO 7428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:16:00.880  INFO 7428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:16:01.043  INFO 7428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:16:01.045  INFO 7428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2392 ms
+2023-01-12 15:16:01.195  INFO 7428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:16:01.434  INFO 7428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:16:01.496  INFO 7428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:16:01.562  INFO 7428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:16:01.806  INFO 7428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:16:01.946  INFO 7428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:16:02.580  INFO 7428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:16:02.593  INFO 7428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:16:03.197  WARN 7428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:16:03.701  INFO 7428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:16:03.907  INFO 7428 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 5.879 seconds (JVM running for 6.465)
+2023-01-12 15:20:20.784  INFO 7428 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:20:20.787  INFO 7428 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:20:20.791  INFO 7428 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-12 15:20:20.921  INFO 7428 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:23:14.719  INFO 7428 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:24:29.272  INFO 13340 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 13340 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:24:29.278  INFO 13340 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:24:30.507  INFO 13340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:24:30.588  INFO 13340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:24:31.380  INFO 13340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:24:31.395  INFO 13340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:24:31.400  INFO 13340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:24:31.546  INFO 13340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:24:31.548  INFO 13340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2167 ms
+2023-01-12 15:24:31.692  INFO 13340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:24:31.973  INFO 13340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:24:32.053  INFO 13340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:24:32.155  INFO 13340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:24:32.345  INFO 13340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:24:32.486  INFO 13340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:24:33.164  INFO 13340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:24:33.183  INFO 13340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:24:33.829  WARN 13340 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:24:34.328  INFO 13340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:24:34.638  INFO 13340 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 5.954 seconds (JVM running for 6.489)
+2023-01-12 15:25:03.140  INFO 13340 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:25:03.142  INFO 13340 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:25:03.147  INFO 13340 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-12 15:25:03.241  INFO 13340 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:25:35.742  INFO 13340 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:30:12.666  INFO 13340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:30:12.668  INFO 13340 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12 15:30:12.854  INFO 13340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 15:30:12.858  INFO 13340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12 15:30:26.630  INFO 5448 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 5448 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:30:26.635  INFO 5448 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:30:27.877  INFO 5448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:30:27.950  INFO 5448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:30:29.099  INFO 5448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:30:29.122  INFO 5448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:30:29.128  INFO 5448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:30:29.333  INFO 5448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:30:29.335  INFO 5448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2023-01-12 15:30:29.491  INFO 5448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:30:29.716  INFO 5448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:30:29.774  INFO 5448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:30:29.842  INFO 5448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:30:30.124  INFO 5448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:30:30.344  INFO 5448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:30:31.547  INFO 5448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:30:31.562  INFO 5448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:30:32.242  WARN 5448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:30:32.803  INFO 5448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:30:33.052  INFO 5448 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 7.019 seconds (JVM running for 7.47)
+2023-01-12 15:30:37.754  INFO 5448 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:30:37.757  INFO 5448 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:30:37.761  INFO 5448 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-12 15:30:37.882  INFO 5448 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:30:37.890  INFO 5448 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 15:30:54.508  INFO 5448 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Loadinding file....
+2023-01-12 15:30:54.513  INFO 5448 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 15:31:31.272  INFO 5448 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : getting data...
+2023-01-12 15:37:20.508  INFO 5448 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:37:20.509  INFO 5448 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12 15:37:20.686  INFO 5448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 15:37:20.701  INFO 5448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12 15:37:31.238  INFO 13556 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 13556 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:37:31.244  INFO 13556 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:37:32.374  INFO 13556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:37:32.453  INFO 13556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:37:33.388  INFO 13556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:37:33.405  INFO 13556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:37:33.407  INFO 13556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:37:33.579  INFO 13556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:37:33.581  INFO 13556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2268 ms
+2023-01-12 15:37:33.721  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:37:33.958  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:37:34.023  INFO 13556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:37:34.095  INFO 13556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:37:34.308  INFO 13556 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:37:34.449  INFO 13556 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:37:35.122  INFO 13556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:37:35.136  INFO 13556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:37:35.687  WARN 13556 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:37:36.296  INFO 13556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:37:36.524  INFO 13556 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 5.836 seconds (JVM running for 6.41)
+2023-01-12 15:37:54.884  INFO 13556 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:37:54.900  INFO 13556 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:37:54.904  INFO 13556 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-12 15:37:54.981  INFO 13556 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 15:37:54.989  INFO 13556 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:37:54.990  INFO 13556 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:38:35.150  INFO 13556 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : getting data...
+2023-01-12 15:38:42.192  INFO 13556 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : getting data...
+2023-01-12 15:42:34.555  INFO 13556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:42:34.557  INFO 13556 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-01-12 15:42:34.737  INFO 13556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 15:42:34.745  INFO 13556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12 15:42:45.452  INFO 16600 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 16600 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 15:42:45.459  INFO 16600 --- [main] c.e.CodingTask.CodingTaskApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-01-12 15:42:46.642  INFO 16600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 15:42:46.719  INFO 16600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-01-12 15:42:47.476  INFO 16600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 15:42:47.492  INFO 16600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 15:42:47.493  INFO 16600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 15:42:47.661  INFO 16600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 15:42:47.663  INFO 16600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2044 ms
+2023-01-12 15:42:47.810  INFO 16600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 15:42:48.029  INFO 16600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 15:42:48.090  INFO 16600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 15:42:48.152  INFO 16600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 15:42:48.344  INFO 16600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 15:42:48.482  INFO 16600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 15:42:49.174  INFO 16600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 15:42:49.186  INFO 16600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 15:42:49.739  WARN 16600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 15:42:50.394  INFO 16600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 15:42:50.623  INFO 16600 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 5.716 seconds (JVM running for 6.49)
+2023-01-12 15:43:00.137  INFO 16600 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-12 15:43:00.138  INFO 16600 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-12 15:43:00.143  INFO 16600 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-01-12 15:43:00.228  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 15:43:00.235  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:43:00.236  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:43:00.377  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:45:46.282  INFO 16600 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 15:45:46.292  INFO 16600 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:45:46.293  INFO 16600 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:45:46.298  INFO 16600 --- [http-nio-4000-exec-3] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:04.794  INFO 16600 --- [http-nio-4000-exec-5] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 15:47:04.809  INFO 16600 --- [http-nio-4000-exec-5] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:04.822  INFO 16600 --- [http-nio-4000-exec-5] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:04.827  INFO 16600 --- [http-nio-4000-exec-5] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:04.837  INFO 16600 --- [http-nio-4000-exec-5] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 15:47:14.584  INFO 16600 --- [http-nio-4000-exec-7] c.e.C.service.CSVDataServiceImpl         : getting data...
+2023-01-12 15:47:14.768  INFO 16600 --- [http-nio-4000-exec-7] c.e.C.service.CSVDataServiceImpl         : Data loaded
+2023-01-12 15:47:28.471  INFO 16600 --- [http-nio-4000-exec-9] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 15:47:28.475  INFO 16600 --- [http-nio-4000-exec-9] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:28.476  INFO 16600 --- [http-nio-4000-exec-9] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:28.483  INFO 16600 --- [http-nio-4000-exec-9] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 15:47:28.491  INFO 16600 --- [http-nio-4000-exec-9] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 16:51:24.170  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 16:51:24.479  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:24.480  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:24.484  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:24.533  INFO 16600 --- [http-nio-4000-exec-1] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 16:51:31.132  INFO 16600 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Loading file....
+2023-01-12 16:51:31.135  INFO 16600 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:31.139  INFO 16600 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:31.228  INFO 16600 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : Reading lines...
+2023-01-12 16:51:31.231  INFO 16600 --- [http-nio-4000-exec-2] c.e.C.service.CSVDataServiceImpl         : CSV Data Loaded
+2023-01-12 17:32:08.003  INFO 13968 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 13968 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 17:32:08.061  INFO 13968 --- [main] c.e.CodingTask.CodingTaskApplication     : The following 1 profile is active: "test"
+2023-01-12 17:32:15.954  INFO 13968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 17:32:16.346  INFO 13968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 276 ms. Found 1 JPA repository interfaces.
+2023-01-12 17:32:21.487  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 17:32:21.781  INFO 13968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 17:32:21.782  INFO 13968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 17:32:23.710  INFO 13968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 17:32:23.713  INFO 13968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15214 ms
+2023-01-12 17:32:24.936  INFO 13968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 17:32:25.538  INFO 13968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 17:32:26.180  INFO 13968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 17:32:26.796  INFO 13968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 17:32:28.055  INFO 13968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 17:32:28.151  INFO 13968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 17:32:29.691  INFO 13968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 17:32:29.707  INFO 13968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 17:32:30.845  WARN 13968 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 17:32:31.845  INFO 13968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
+2023-01-12 17:32:32.189  INFO 13968 --- [main] c.e.CodingTask.CodingTaskApplication     : Started CodingTaskApplication in 26.921 seconds (JVM running for 29.013)
+2023-01-12 17:33:46.795  INFO 13968 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 17:33:46.799  INFO 13968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-12 17:33:46.803  INFO 13968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-12 17:34:08.939  INFO 14948 --- [main] c.e.CodingTask.CodingTaskApplication     : Starting CodingTaskApplication using Java 17 on Hammed with PID 14948 (C:\Users\User\Documents\GitHub\CodingTask\target\classes started by Hammed in C:\Users\User\Documents\GitHub\CodingTask)
+2023-01-12 17:34:08.944  INFO 14948 --- [main] c.e.CodingTask.CodingTaskApplication     : The following 1 profile is active: "test"
+2023-01-12 17:34:10.102  INFO 14948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-12 17:34:10.171  INFO 14948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-01-12 17:34:10.966  INFO 14948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2023-01-12 17:34:10.985  INFO 14948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-12 17:34:10.988  INFO 14948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-12 17:34:11.146  INFO 14948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-01-12 17:34:11.148  INFO 14948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2120 ms
+2023-01-12 17:34:11.313  INFO 14948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-12 17:34:11.375  INFO 14948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-12 17:34:11.561  INFO 14948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-12 17:34:11.683  INFO 14948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-12 17:34:11.902  INFO 14948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-12 17:34:11.931  INFO 14948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-12 17:34:12.657  INFO 14948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-12 17:34:12.673  INFO 14948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-12 17:34:13.258  WARN 14948 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-12 17:34:13.834  INFO 14948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path '/api'
